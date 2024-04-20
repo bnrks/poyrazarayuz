@@ -22,8 +22,8 @@ function RightRef({ data }) {
         value={textValue || "Yükleniyor...\n"}
         name=""
         id=""
-        cols="30"
-        rows="13"
+        cols="10"
+        rows="12"
         style={{ overflowY: "hidden", resize: "none" }} // scrollbar'ı kaldırmak için style eklendi
       ></textarea>
     </>
